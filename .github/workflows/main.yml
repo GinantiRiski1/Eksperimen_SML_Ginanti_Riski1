@@ -1,11 +1,9 @@
-name: Preprocessing Pipeline
+name: Data Preprocessing
 
 on:
   push:
-    paths:
-      - 'Preprocessing/automate_Ginanti_Riski.py'
-      - 'dataset_raw/**'
-      - '.github/workflows/preprocessing.yml'
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   preprocess:
@@ -27,9 +25,3 @@ jobs:
     - name: Run preprocessing script
       run: |
         python Preprocessing/automate_Ginanti_Riski.py
-
-    - name: Upload processed dataset
-      uses: actions/upload-artifact@v4
-      with:
-        name: processed-data
-        path: preprocessing/car_preprocessing/processed_data.csv
