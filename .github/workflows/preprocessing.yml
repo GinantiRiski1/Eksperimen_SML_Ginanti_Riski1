@@ -1,0 +1,35 @@
+name: Preprocessing Pipeline
+
+on:
+  push:
+    paths:
+      - 'preprocessing/automate_Ginanti_Riski.py'
+      - 'dataset_raw/**'
+      - '.github/workflows/preprocessing.yml'
+
+jobs:
+  preprocess:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run preprocessing script
+      run: |
+        python preprocessing/automate_Ginanti_Riski.py
+
+    - name: Upload processed dataset
+      uses: actions/upload-artifact@v4
+      with:
+        name: processed-data
+        path: preprocessing/car_preprocessing/processed_data.csv
