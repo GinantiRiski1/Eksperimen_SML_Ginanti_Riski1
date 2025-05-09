@@ -5,8 +5,8 @@ on:
     branches: [ main ]
     paths:
     - 'Preprocessing/automate_Ginanti_Riski.py'
-    - 'dataset_raw/**'
-    - '.github/workflows/preprocessing.yml'
+    - 'dataset_raw/car_data.csv'
+    - '.github/workflows/main.yml'
   workflow_dispatch:
   
 jobs:
