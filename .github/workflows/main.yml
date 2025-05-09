@@ -25,3 +25,9 @@ jobs:
     - name: Run preprocessing script
       run: |
         python Preprocessing/automate_Ginanti_Riski.py
+
+    - name: Upload processed dataset
+      uses: actions/upload-artifact@v4
+      with:
+        name: processed-data
+        path: preprocessing/car_preprocessing/processed_data.csv
