@@ -32,4 +32,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: processed-data
-        path: Preprocessing/car_preprocessing/processed_data.csv
+        path: Preprocessing/car_preprocessing/*.csv
+
