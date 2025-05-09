@@ -3,8 +3,12 @@ name: Data Preprocessing
 on:
   push:
     branches: [ main ]
+    paths:
+    - 'Preprocessing/automate_Ginanti_Riski.py'
+    - 'dataset_raw/**'
+    - '.github/workflows/preprocessing.yml'
   workflow_dispatch:
-
+  
 jobs:
   preprocess:
     runs-on: ubuntu-latest
@@ -30,4 +34,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: processed-data
-        path: preprocessing/car_preprocessing/processed_data.csv
+        path: Preprocessing/car_preprocessing/processed_data.csv
