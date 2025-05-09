@@ -5,7 +5,7 @@ on:
     paths:
       - 'Preprocessing/automate_Ginanti_Riski.py'
       - 'dataset_raw/**'
-      - '.github/workflows/preprocessing.yml'
+      - '.github/workflows/main.yml'
 
 jobs:
   preprocess:
