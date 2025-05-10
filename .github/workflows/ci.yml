@@ -15,11 +15,12 @@ jobs:
     - name: Set up Conda
       uses: conda-incubator/setup-miniconda@v2
       with:
-        activate-environment: mlflow-env
+        activate-environment: msml-env
         environment-file: Workflow-CI/MLProject/conda.yaml
         auto-activate-base: false
 
     - name: Run MLflow Project
+      shell: bash -l {0}  # 🟢 ini penting agar Conda aktif!
       run: |
         cd Workflow-CI/MLProject
         mlflow run . --env-manager=conda -P n_neighbors=3
