@@ -1,9 +1,0 @@
-digest: caa7ddef
-name: dataset
-profile: '{"num_rows": 240, "num_elements": 720}'
-schema: '{"mlflow_colspec": [{"type": "double", "name": "Gender", "required": true},
-  {"type": "double", "name": "Age", "required": true}, {"type": "double", "name":
-  "AnnualSalary", "required": true}]}'
-source: '{"tags": {"mlflow.user": "Admin", "mlflow.source.name": "basic_modeling.py",
-  "mlflow.source.type": "LOCAL"}}'
-source_type: code
