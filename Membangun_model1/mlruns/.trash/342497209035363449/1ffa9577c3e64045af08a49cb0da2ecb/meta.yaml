@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/Admin/OneDrive/Desktop/Submission%20Dicoding/MSML/Membangun_model/mlruns/342497209035363449/1ffa9577c3e64045af08a49cb0da2ecb/artifacts
+deleted_time: 1746815974871
+end_time: 1746815262915
+entry_point_name: ''
+experiment_id: '342497209035363449'
+lifecycle_stage: deleted
+run_id: 1ffa9577c3e64045af08a49cb0da2ecb
+run_name: wistful-newt-95
+run_uuid: 1ffa9577c3e64045af08a49cb0da2ecb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746815253868
+status: 3
+tags: []
+user_id: Admin
