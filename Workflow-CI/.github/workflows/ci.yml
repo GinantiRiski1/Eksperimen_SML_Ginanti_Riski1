@@ -16,7 +16,7 @@ jobs:
       uses: conda-incubator/setup-miniconda@v2
       with:
         activate-environment: mlflow-env
-        environment-file: MLProject/conda.yaml
+        environment-file: Workflow-CI/MLProject/conda.yaml
         auto-activate-base: false
 
     - name: Run MLflow Project
