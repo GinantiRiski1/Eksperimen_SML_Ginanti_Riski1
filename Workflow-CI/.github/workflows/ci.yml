@@ -22,4 +22,5 @@ jobs:
     - name: Run MLflow Project
       run: |
         cd Workflow-CI/MLProject
-        mlflow run . --env-manager=conda -P n_neighbors=3
+        mlflow run Workflow-CI/MLProject --env-manager=conda -P n_neighbors=3
+
