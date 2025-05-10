@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Admin/OneDrive/Desktop/Submission%20Dicoding/MSML/Membangun_model/mlruns/886428204955686014/d46ce314ac8e4f25b72a34ae0ffee8e2/artifacts
+end_time: 1746816970969
+entry_point_name: ''
+experiment_id: '886428204955686014'
+lifecycle_stage: active
+run_id: d46ce314ac8e4f25b72a34ae0ffee8e2
+run_name: KNN_GridSearch
+run_uuid: d46ce314ac8e4f25b72a34ae0ffee8e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746816961887
+status: 3
+tags: []
+user_id: Admin

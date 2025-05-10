@@ -1,0 +1,9 @@
+digest: 1d2b92f8
+name: dataset
+profile: '{"num_rows": 956, "num_elements": 2868}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "Gender", "required": true},
+  {"type": "double", "name": "Age", "required": true}, {"type": "double", "name":
+  "AnnualSalary", "required": true}]}'
+source: '{"tags": {"mlflow.user": "Admin", "mlflow.source.name": "modelling.py", "mlflow.source.type":
+  "LOCAL"}}'
+source_type: code

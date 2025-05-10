@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/Admin/OneDrive/Desktop/Submission%20Dicoding/MSML/Membangun_model/mlruns/487851017804453115/d5d59324b3ef415988c0ef2ba59fbaf2/artifacts
+deleted_time: 1746815978294
+end_time: 1746813568665
+entry_point_name: ''
+experiment_id: '487851017804453115'
+lifecycle_stage: deleted
+run_id: d5d59324b3ef415988c0ef2ba59fbaf2
+run_name: clean-yak-813
+run_uuid: d5d59324b3ef415988c0ef2ba59fbaf2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746813522373
+status: 3
+tags: []
+user_id: Admin
