@@ -1,0 +1,18 @@
+# Dokumentasi Logging Model ke DagsHub dengan MLflow
+
+## Informasi Eksperimen
+
+- **Nama Eksperimen**: `advanced-model_v2`
+- **Nama Run**: `KNN_GridSearch_Advanced`
+- **Akurasi Model**: 0.9292
+- **Waktu Pelatihan**: 1.42 detik
+
+## Tautan Hasil Eksperimen
+
+- 🧪 [View Experiment on DagsHub](https://dagshub.com/GinantiRiski1/my-first-repo.mlflow/#/experiments/0)
+- 🏃 [View Run on DagsHub](https://dagshub.com/GinantiRiski1/my-first-repo.mlflow/#/experiments/0/runs/5d05dcfb3c00430c8e02a153ecf1be77)
+
+## Catatan
+
+Model dilatih menggunakan algoritma **K-Nearest Neighbors** (KNN) dengan tuning hyperparameter `n_neighbors` dan `weights` menggunakan **GridSearchCV**.  
+Pelacakan dilakukan secara manual menggunakan MLflow dan diarahkan ke **DagsHub** sebagai remote tracking server.
