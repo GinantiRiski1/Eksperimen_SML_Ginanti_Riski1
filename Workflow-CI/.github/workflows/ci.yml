@@ -2,7 +2,7 @@ name: MLflow CI Training
 
 on:
   push:
-    branches: [main]  # Bisa diganti sesuai kebutuhan (misal: develop)
+    branches: [main]
 
 jobs:
   train-model:
@@ -11,6 +11,10 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
+
+    - name: Check directory structure
+      run: |
+        ls -R
 
     - name: Set up Conda
       uses: conda-incubator/setup-miniconda@v2
@@ -21,6 +25,5 @@ jobs:
 
     - name: Run MLflow Project
       run: |
-        cd MLProject
+        cd Workflow-CI/MLProject
         mlflow run . --env-manager=conda -P n_neighbors=3
-        
