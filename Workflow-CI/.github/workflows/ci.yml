@@ -12,9 +12,6 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v3
 
-    - name: Check directory structure
-      run: ls -R
-
     - name: Set up Conda
       uses: conda-incubator/setup-miniconda@v2
       with:
